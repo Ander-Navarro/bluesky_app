@@ -1,4 +1,0 @@
-# .htaccess en la carpeta config
-<IfModule mod_authz_core.c>
-    Require all denied
-</IfModule>

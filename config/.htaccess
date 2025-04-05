@@ -1,0 +1,5 @@
+# Previene el acceso a cualquier archivo .php o .config dentro de esta carpeta
+<FilesMatch "\.(php|config)$">
+  Order Deny,Allow
+  Deny from all
+</FilesMatch>
